@@ -34,7 +34,7 @@ int main()
     // How NOT to compare string content - remember the array variables holds an address!
     if (moduleName == anotherModule) {
         puts("moduleName and anotherModule have the same address");
-    }
+    } 
     else {
         puts("moduleName and anotherModule have a different address");
     }

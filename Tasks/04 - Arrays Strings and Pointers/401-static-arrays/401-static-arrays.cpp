@@ -43,15 +43,24 @@ int main()
     // **************************************************************************
 
     //Write task 1 solution here
-    int64_t sum = 0L;   //Result needs to be bigger than int to avoid overflow
-
-
+       //Result needs to be bigger than int to avoid overflow
+    int64_t sum = 0L;
+    int n = 11;
+    for (int i = 0; i < n; i++)
+    {
+        sum += nums[i];
+        
+    }
+    cout << "the array is" << sum;
     // ***********************************************************************************************************************
     // TASK 2 - calculate the mean of all elements (this will be a fractional value) and display to 1 decimal place accuracy *
     // ***********************************************************************************************************************
-
+   
+    
+    float mean = (float)sum / (float)n;
+    cout << "the array is" << mean;
     //Write task 2 solution here
-
+    
 }
 
 
