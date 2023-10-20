@@ -76,3 +76,8 @@ Point flipPoint(Point p)
     result.length = p.length;
     return result;
 }
+Point addPoint(Point p1, Point p2)
+{
+    Point result = p1
+        
+}
